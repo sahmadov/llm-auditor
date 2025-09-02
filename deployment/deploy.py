@@ -49,6 +49,7 @@ def create() -> None:
             "google-genai (>=1.5.0,<2.0.0)",
             "pydantic (>=2.10.6,<3.0.0)",
             "absl-py (>=2.2.1,<3.0.0)",
+            "litellm (>=1.66.3,<1.76.1)",
         ],
         extra_packages=["./llm_auditor"],
     )
